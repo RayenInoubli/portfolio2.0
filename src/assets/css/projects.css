@@ -1,0 +1,125 @@
+.projects-container {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+}
+
+.projects-content {
+    width: 50%;
+    margin: 0;
+    padding: 0;
+}
+
+.projects-content > h1 {
+    font-size: 3rem;
+    letter-spacing: -2px;
+    line-height: 2rem;
+}
+
+.projects-content > p {
+    font-size: 1rem;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.project-card {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    height: 27rem;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    border-radius: .5rem;
+}
+
+.project-card:hover {
+    box-shadow: 0 0 5px rgba(126, 126, 126, 0.466);
+}
+
+.project-img {
+    background-color: orange;
+    border-radius: .5rem .5rem 0 0;
+}
+
+.project-details {
+    padding: .5rem;
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.project-title {
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.project-description {
+    color: rgb(71, 71, 71);
+    font-weight: 500;
+    font-size: .85rem;
+    line-height: 1.5rem;
+}
+
+.stack {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+}
+
+.stack > span {
+    background-color: #ececec;
+    text-align: center;
+    padding: 3px 0 3px 0 ;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.links {
+    display: flex;
+    gap: 5px;
+}
+
+.link {
+    background-color: black;
+    padding: 5px 7px;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.link:hover {
+    background-color: rgb(41, 41, 41);
+}
+
+@media (max-width: 1000px) {
+
+    .projects-content {
+        width: 100%;
+        padding: 0 1rem;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .projects-container {
+        margin-top: 1rem;
+    }
+
+    .projects-content > h1 {
+        font-size: 2.25rem;
+        letter-spacing: -1px;
+    }
+
+    .projects {
+        grid-template-columns: 1fr;
+    }
+}

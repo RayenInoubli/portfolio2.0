@@ -1,0 +1,81 @@
+.education-container {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    height: 35vh;
+}
+
+.education-content {
+    width: 50%;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    padding: 0;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.degree-details {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.degree-duration {
+    color: rgb(136, 136, 136);
+}
+
+.institution-icon {
+    background-color: orange;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.institution-name {
+    font-weight: 700;
+}
+
+.degree-title {
+    font-size: .8rem;
+}
+
+@media (max-width: 1000px) {
+    .education-container {
+        margin-top: 2rem;
+    }
+
+    .education-content {
+        width: 100%;
+        padding: 0 1rem;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .education-container {
+        margin-top: 1rem;
+        height: 25vh;
+    }
+
+    .degree-duration {
+        font-size: .6rem;
+    }
+
+    .degree-title {
+        font-size: .6rem;
+    }
+}

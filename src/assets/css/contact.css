@@ -1,0 +1,47 @@
+.contact-container {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    height: 40vh;
+}
+
+.contact-content {
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.contact-content > h1 {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.contact-content > p {
+    font-size: 1.25rem;
+}
+
+.contact-content > p > span {
+    font-size: 1rem;
+    color: #3B82F6;
+}
+
+@media (max-width: 1000px) {
+
+    .contact-content {
+        width: 100%;
+        padding: 0 1rem;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .contact-container {
+        margin-top: 5rem;
+        height: 35vh;
+    }
+
+    .contact-content > p {
+        font-size: .8rem;
+    }
+}
