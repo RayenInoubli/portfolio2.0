@@ -90,11 +90,11 @@ p {
 @media (max-width: 500px) {
 
     .about-container {
-        height: 30vh;
+        height: 33vh;
     }
 
     h1 {
-        font-size: 1.5rem;
+        font-size: 1.7rem;
     }
     
     h3 {
@@ -103,7 +103,7 @@ p {
     
     .about-main  p {
         color: rgb(65, 65, 65);
-        font-size: .6rem;
+        font-size: .65rem;
         font-weight: 500;
         width: 250px;
     }
