@@ -1,4 +1,5 @@
 import '../assets/css/education.css';
+import Isamm from '../assets/img/isamm.png';
 
 export default function Education() {
   return (
@@ -8,7 +9,7 @@ export default function Education() {
             <ul>
                 <li>
                     <div className='degree-details'>
-                        <div className='institution-icon' ></div>
+                        <img className='institution-icon' src={Isamm} />
                         <div className='institution-details'>
                             <div className='institution-name'>ISAMM</div>
                             <div className='degree-title'>Bachelor's Degree of Computer Science</div>
@@ -18,7 +19,7 @@ export default function Education() {
                 </li>
                 <li>
                     <div className='degree-details'>
-                        <div className='institution-icon' ></div>
+                        <img className='institution-icon' src={Isamm} />
                         <div className='institution-details'>
                             <div className='institution-name'>ISAMM</div>
                             <div className='degree-title'>Software Engineering Degree</div>

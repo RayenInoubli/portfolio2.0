@@ -1,4 +1,12 @@
 import '../assets/css/projects.css';
+import ContactList from '../assets/img/contact-proj.png';
+import Magano from '../assets/img/magano-proj.png';
+import Faerun from '../assets/img/faerun-proj.png';
+import Creadevity from '../assets/img/creadevity-proj.png';
+import Dentixio from '../assets/img/dentixio-proj.png';
+import Mouhami from '../assets/img/mouhami-proj.png';
+import PokerPlanning from '../assets/img/pplanning-proj.png';
+
 
 export default function Projects() {
   return (
@@ -13,7 +21,9 @@ export default function Projects() {
             </p>
             <div className="projects">
                 <div className="project-card">
-                    <div className="project-img"></div>
+                    <div className="project-img">
+                        <img src={Dentixio} />
+                    </div>
                     <div className="project-details">
                         <div className="project-title">Dentixio</div>
                         <div className="project-description">
@@ -34,7 +44,9 @@ export default function Projects() {
                 </div>
 
                 <div className="project-card">
-                    <div className="project-img"></div>
+                    <div className="project-img">
+                        <img src={Magano} />
+                    </div>
                     <div className="project-details">
                         <div className="project-title">Magano CRM</div>
                         <div className="project-description">
@@ -55,7 +67,9 @@ export default function Projects() {
                 </div>
 
                 <div className="project-card">
-                    <div className="project-img"></div>
+                    <div className="project-img">
+                        <img src={Mouhami} />
+                    </div>
                     <div className="project-details">
                         <div className="project-title">Mou7ami</div>
                         <div className="project-description">
@@ -76,7 +90,9 @@ export default function Projects() {
                 </div>
 
                 <div className="project-card">
-                    <div className="project-img"></div>
+                    <div className="project-img">
+                        <img src={Creadevity} />
+                    </div>
                     <div className="project-details">
                         <div className="project-title">Creadevity</div>
                         <div className="project-description">
@@ -97,7 +113,9 @@ export default function Projects() {
                 </div>
 
                 <div className="project-card">
-                    <div className="project-img"></div>
+                    <div className="project-img">
+                        <img src={ContactList} />
+                    </div>
                     <div className="project-details">
                         <div className="project-title">Contact List</div>
                         <div className="project-description">
@@ -117,7 +135,9 @@ export default function Projects() {
                 </div>
 
                 <div className="project-card">
-                    <div className="project-img"></div>
+                    <div className="project-img">
+                        <img src={Faerun} />
+                    </div>
                     <div className="project-details">
                         <div className="project-title">Battle Of Faerun</div>
                         <div className="project-description">
@@ -137,7 +157,9 @@ export default function Projects() {
                 </div>
 
                 <div className="project-card">
-                    <div className="project-img"></div>
+                    <div className="project-img">
+                        <img src={PokerPlanning} />
+                    </div>
                     <div className="project-details">
                         <div className="project-title">Poker Planning</div>
                         <div className="project-description">
@@ -158,26 +180,6 @@ export default function Projects() {
                         </div>
                     </div>
                 </div>
-
-                {/* <div className="project-card">
-                    <div className="project-img"></div>
-                    <div className="project-details">
-                        <div className="project-title">React-SPF</div>
-                        <div className="project-description">
-                            React Shortest Path Finder, is a react app for visualizing
-                            how diffrent path-finding algorithms works
-                        </div>
-                        <div className="stack">
-                            <span>React</span>
-                            <span>CSS</span>
-                            <span>JavaScript</span>
-                        </div>
-                        <div className="links">
-                            <div className="link">website</div>
-                            <div className="link">Code</div>
-                        </div>
-                    </div>
-                </div> */}
             </div>
         </div>
     </div>

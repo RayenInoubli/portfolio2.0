@@ -1,4 +1,7 @@
 import '../assets/css/work.css';
+import Telecom from '../assets/img/logo_tt.jpg';
+import Attijari from '../assets/img/attijari.png';
+import Devnet from '../assets/img/devnet.png';
 
 export default function Work() {
   return (
@@ -8,7 +11,7 @@ export default function Work() {
             <ul>
                 <li>
                     <div className='post-details'>
-                        <div className='company-icon' ></div>
+                        <img className='company-icon' src={Telecom} />
                         <div className='company-details'>
                             <div className='company-name'>Tunisie Télécom</div>
                             <div className='post-title'>Full-stack developer (Internship)</div>
@@ -18,7 +21,7 @@ export default function Work() {
                 </li>
                 <li>
                     <div className='post-details'>
-                        <div className='company-icon' ></div>
+                        <img className='company-icon' src={Devnet} />
                         <div className='company-details'>
                             <div className='company-name'>Devnet</div>
                             <div className='post-title'>Full-stack developer (Internship)</div>
@@ -28,27 +31,7 @@ export default function Work() {
                 </li>
                 <li>
                     <div className='post-details'>
-                        <div className='company-icon' ></div>
-                        <div className='company-details'>
-                            <div className='company-name'>Magano Inc</div>
-                            <div className='post-title'>Full-stack developer (Freelance)</div>
-                        </div>
-                    </div>
-                    <div className='work-duration' >Aug 2023</div>
-                </li>
-                <li>
-                    <div className='post-details'>
-                        <div className='company-icon' ></div>
-                        <div className='company-details'>
-                            <div className='company-name'>Dentixio</div>
-                            <div className='post-title'>Full-stack developer</div>
-                        </div>
-                    </div>
-                    <div className='work-duration' >Sept 2023 - Feb 2024</div>
-                </li>
-                <li>
-                    <div className='post-details'>
-                        <div className='company-icon' ></div>
+                        <img className='company-icon' src={Attijari} />
                         <div className='company-details'>
                             <div className='company-name'>Attijari Bank</div>
                             <div className='post-title'>DevOps Engineer (Internship)</div>

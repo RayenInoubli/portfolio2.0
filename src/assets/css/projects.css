@@ -42,8 +42,17 @@
 }
 
 .project-img {
-    background-color: orange;
+    background-color: white;
     border-radius: .5rem .5rem 0 0;
+    border-bottom: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-img > img {
+    height: 180px;
+    border: none;
 }
 
 .project-details {
