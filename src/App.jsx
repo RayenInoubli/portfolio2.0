@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import About from './components/About';
 import Work from './components/Work';
 import Education from './components/Education';
@@ -11,8 +11,18 @@ function App() {
 
   const [isDark, setIsDark] = useState(false);
 
+  useEffect(() => {
+    if (isDark) {
+      document.body.style.backgroundColor = '#08090A';
+      document.body.style.color = 'white';
+    } else {
+      document.body.style.backgroundColor = 'white';
+      document.body.style.color = 'black';
+    }
+  }, [isDark])
+
   return (
-    <>
+    <div>
       <NavBar
         isDark={isDark}
         setIsDark={setIsDark}
@@ -23,7 +33,7 @@ function App() {
       <Skills />
       <Projects />
       <Contact />
-    </>
+    </div>
   )
 }
 
