@@ -68,7 +68,7 @@ li {
 
     .work-container {
         margin-top: 1rem;
-        height: 55vh;
+        height: fit-content;
     }
 
     .work-content > ul {
